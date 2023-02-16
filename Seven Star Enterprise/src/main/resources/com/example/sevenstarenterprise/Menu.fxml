@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sevenstarenterprise.Menu">
+   <children>
+      <ImageView blendMode="DARKEN" fitHeight="91.0" fitWidth="255.0" layoutX="389.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-illustration-r-welcome-125370796.jpg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="91.0" fitWidth="281.0" layoutX="359.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Screenshot 2022-06-14 161304.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="45.0" layoutX="289.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/[removal.ai]_tmp-62a8674f14e301.png" />
+         </image></ImageView>
+      <ImageView fitHeight="25.0" fitWidth="54.0" layoutX="620.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/ssgf.png" />
+         </image></ImageView>
+      <ImageView fitHeight="27.0" fitWidth="30.0" layoutX="486.0" layoutY="526.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/backup.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="52.0" layoutX="286.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true" rotate="5.0">
+         <image>
+            <Image url="@../../../Images/download-removebg-previewwrgfh.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="170.0" layoutY="205.0" />
+      <Label layoutX="182.0" layoutY="262.0" />
+      <Label layoutX="459.0" layoutY="217.0" />
+      <Label layoutX="453.0" layoutY="273.0" />
+      <Label layoutX="325.0" layoutY="319.0" />
+      <Button fx:id="button1" layoutX="359.0" layoutY="348.0" mnemonicParsing="false" onAction="#Indexbutton" text="انڈیکس" />
+      <Button fx:id="button3" layoutX="359.0" layoutY="434.0" mnemonicParsing="false" onAction="#landanbutton" text="لین دین(روکڑ)" />
+      <Button fx:id="button4" layoutX="693.0" layoutY="348.0" mnemonicParsing="false" onAction="#reportbutton" text="رپورٹ" />
+      <Button fx:id="button5" layoutX="534.0" layoutY="527.0" mnemonicParsing="false" onAction="#backupbutton" text="بیک اپ" />
+      <Button fx:id="Logout" layoutX="903.0" layoutY="40.0" mnemonicParsing="false" onAction="#logoutButton" text="Logout" />
+      <Button layoutX="20.0" layoutY="24.0" mnemonicParsing="false" text="MENU">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="CASHIN" layoutX="351.0" layoutY="260.0" mnemonicParsing="false" onAction="#CASHIN" text="🡅  CASH IN ">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="CASHOUT" layoutX="587.0" layoutY="262.0" mnemonicParsing="false" onAction="#CASHOUT" text="🡇  CASH OUT">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="book" layoutX="696.0" layoutY="434.0" mnemonicParsing="false" onAction="#bookButton" text="Book" />
+      <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="628.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/unnamed23.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane blendMode="DARKEN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sevenstarenterprise.CASHIN">
+    <children>
+        <MenuBar blendMode="DARKEN" prefHeight="25.0" prefWidth="1383.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Action">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="New" />
+                        <MenuItem mnemonicParsing="false" text="Save">
+                            <accelerator>
+                                <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                            </accelerator>
+                        </MenuItem>
+                        <CheckMenuItem mnemonicParsing="false" text="Autosave" />
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Undo" />
+                        <MenuItem mnemonicParsing="false" text="Redo" />
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Block">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Record">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Field">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Window">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Action 1" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About" />
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ImageView blendMode="DARKEN" fitHeight="161.0" fitWidth="287.0" layoutX="363.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Images/Screenshot%202022-07-28%20220115.png" />
+            </image>
+        </ImageView>
+        <Text layoutX="244.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="خام بکری" />
+        <Text layoutX="247.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="مزدوری" />
+        <Text layoutX="238.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="گودام کرایہ" />
+        <TextField fx:id="mazdori" layoutX="68.0" layoutY="494.0" />
+        <TextField fx:id="kharcha" layoutX="68.0" layoutY="164.0" />
+        <TextField fx:id="comission" layoutX="69.0" layoutY="427.0" />
+        <TextField fx:id="kham_bikri" layoutX="68.0" layoutY="99.0" />
+        <TextField fx:id="pukhta_bikri" layoutX="69.0" layoutY="230.0" />
+        <TextField fx:id="karaya" layoutX="68.0" layoutY="298.0" />
+        <TextField fx:id="telliphone" layoutX="68.0" layoutY="560.0" />
+        <TextField fx:id="godam_karaya" layoutX="68.0" layoutY="364.0" />
+        <TextField fx:id="manshana" layoutX="68.0" layoutY="624.0" />
+        <Text layoutX="1147.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="نمبر" />
+        <TextField fx:id="number" layoutX="996.0" layoutY="100.0" prefHeight="26.0" prefWidth="102.0" />
+        <Text layoutX="1136.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+        <TextField fx:id="name" layoutX="710.0" layoutY="146.0" prefHeight="26.0" prefWidth="391.0" />
+        <Text layoutX="1145.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="اڈا" />
+        <TextField fx:id="adda" layoutX="709.0" layoutY="192.0" prefHeight="26.0" prefWidth="391.0" />
+        <Text layoutX="977.0" layoutY="649.0" strokeType="OUTSIDE" strokeWidth="0.0" text="کُل ٹوٹل" />
+        <TextField fx:id="kul_total" layoutX="421.0" layoutY="632.0" prefHeight="26.0" prefWidth="520.0" />
+        <Button fx:id="BackButton" cache="true" layoutX="1209.0" layoutY="44.0" mnemonicParsing="false" onAction="#Back" text="🢀" />
+        <Text layoutX="252.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="خرچہ" />
+        <Text layoutX="245.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="کمشن" />
+        <Text layoutX="243.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ٹیلیفون" />
+        <Text layoutX="244.0" layoutY="641.0" strokeType="OUTSIDE" strokeWidth="0.0" text="منشانہ" />
+        <Text layoutX="253.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="کرایہ" />
+        <Text layoutX="237.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="پختہ بکری" />
+        <ScrollPane layoutX="415.0" layoutY="242.0" prefHeight="343.0" prefWidth="851.0">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="484.0" prefWidth="798.0">
+                    <children>
+                        <TextField layoutX="75.0" layoutY="62.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="75.0" layoutY="103.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="75.0" layoutY="143.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="75.0" layoutY="183.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="75.0" layoutY="222.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="75.0" layoutY="262.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="75.0" layoutY="302.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="75.0" layoutY="341.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="538.0" layoutY="62.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="538.0" layoutY="103.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="538.0" layoutY="143.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="538.0" layoutY="183.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="538.0" layoutY="222.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="538.0" layoutY="262.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="538.0" layoutY="302.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="538.0" layoutY="341.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="687.0" layoutY="62.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="687.0" layoutY="103.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="687.0" layoutY="143.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="687.0" layoutY="183.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="687.0" layoutY="222.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="687.0" layoutY="262.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="687.0" layoutY="302.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="687.0" layoutY="341.0" prefHeight="26.0" prefWidth="69.0" />
+                        <Text layoutX="783.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+                        <Text layoutX="783.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+                        <Text layoutX="782.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+                        <Text layoutX="782.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+                        <Text layoutX="782.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+                        <Text layoutX="782.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" />
+                        <Text layoutX="782.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" />
+                        <Text layoutX="259.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ٹوٹل" />
+                        <Text layoutX="568.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="قسم مال" />
+                        <Text layoutX="707.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="تعداد" />
+                        <Text layoutX="782.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" />
+                        <TextField layoutX="687.0" layoutY="381.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="538.0" layoutY="381.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="75.0" layoutY="381.0" prefHeight="26.0" prefWidth="427.0" />
+                        <TextField layoutX="687.0" layoutY="421.0" prefHeight="26.0" prefWidth="69.0" />
+                        <TextField layoutX="538.0" layoutY="421.0" prefHeight="26.0" prefWidth="115.0" />
+                        <TextField layoutX="75.0" layoutY="421.0" prefHeight="26.0" prefWidth="427.0" />
+                        <Text layoutX="782.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" />
+                        <Text layoutX="782.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+      <Label fx:id="label" alignment="CENTER" layoutX="640.0" layoutY="55.0" prefHeight="53.0" prefWidth="273.0" text="Label" />
+      <Button layoutX="33.0" layoutY="43.0" mnemonicParsing="false" text="U+1F4BE" />
+      <Button layoutX="130.0" layoutY="43.0" mnemonicParsing="false" text="U+1F4BE" />
+      <Button layoutX="253.0" layoutY="44.0" mnemonicParsing="false" text="U+1F4BE" />
+    </children>
+</AnchorPane>

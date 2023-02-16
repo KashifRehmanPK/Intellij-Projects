@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!--<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.sevenstarenterprise.LoginPag">
+   <ImageView fitHeight="413.0" fitWidth="608.0" layoutX="-1.0" layoutY="-4.0">
+      <Image url="@../../../../../main/resources/Images/myImage.jpg"/>
+   </ImageView>
+</AnchorPane>-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sevenstarenterprise.LoginPag">
+   <children>
+      <Label layoutX="389.0" layoutY="379.0" text="پاس ورڈ">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label layoutX="382.0" layoutY="332.0" text="صارف نام">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="username" layoutX="530.0" layoutY="329.0" prefHeight="17.0" prefWidth="149.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="530.0" layoutY="376.0" promptText="Password" />
+      <ImageView fx:id="loginbgID" blendMode="DARKEN" fitHeight="311.0" fitWidth="761.0" layoutX="127.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/login.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" layoutX="447.0" layoutY="498.0" mnemonicParsing="false" onAction="#userLogin" prefHeight="30.0" prefWidth="107.0" text="Login" />
+      <Label fx:id="wrongLogin" layoutX="422.0" layoutY="441.0" text="صارف کا نام یا پاس ورڈ غلط ہے" />
+   </children>
+</AnchorPane>
