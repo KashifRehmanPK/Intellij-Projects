@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.print.Controller">
+   <children>
+      <TextField fx:id="Cheezan" layoutX="235.0" layoutY="21.0" />
+      <TextField fx:id="Tadad" layoutX="235.0" layoutY="83.0" />
+      <TextField fx:id="Rate" layoutX="235.0" layoutY="149.0" />
+      <TextField fx:id="Small_Total" layoutX="235.0" layoutY="211.0" />
+      <Text layoutX="137.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cheezan" />
+      <Text layoutX="126.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tadad" />
+      <Text layoutX="137.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate" />
+      <Text layoutX="137.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Small Total" />
+      <TextField fx:id="kul_total" layoutX="235.0" layoutY="267.0" />
+      <Text layoutX="148.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="kul_total" />
+      <TextField fx:id="Diya" layoutX="226.0" layoutY="306.0" />
+      <Text layoutX="158.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diya" />
+
+      <Button fx:id="jButton2ActionPerformed" layoutX="481.0" layoutY="379.0" mnemonicParsing="false" onAction="#jButton2ActionPerformed" prefHeight="53.0" prefWidth="90.0" text="Print" />
+      <TextField fx:id="Bakaya" layoutX="226.0" layoutY="354.0" />
+      <Text layoutX="159.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bakaya" />
+   </children>
+</AnchorPane>
