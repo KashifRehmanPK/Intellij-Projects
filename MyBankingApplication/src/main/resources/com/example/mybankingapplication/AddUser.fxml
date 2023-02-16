@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mybankingapplication.AddUser">
+   <children>
+      <Text layoutX="52.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" />
+      <Text layoutX="300.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" />
+      <Text layoutX="204.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branch" />
+      <TextField fx:id="firstName" layoutX="129.0" layoutY="100.0" />
+      <TextField fx:id="Last_Name" layoutX="370.0" layoutY="100.0" />
+      <TextField fx:id="Branch" layoutX="284.0" layoutY="183.0" />
+      <Button fx:id="CreateAccount" layoutX="244.0" layoutY="315.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="57.0" prefWidth="126.0" text="Create Account" />
+      <Button fx:id="Back" layoutX="31.0" layoutY="27.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+   </children>
+</AnchorPane>
